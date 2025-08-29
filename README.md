@@ -24,7 +24,7 @@ RESTful API для управления вопросами и ответами, 
 1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/AndriiShabalin621/python-test-fastapi.git
-cd questions-and-answers
+cd python-test-fastapi
 ```
 
 2. Создайте файл .env в корне проекта (при необходимости):
@@ -54,4 +54,5 @@ docker-compose exec web alembic upgrade head
 ```
 ### 🌐 Доступ к API
 http://localhost:8004
+
 
