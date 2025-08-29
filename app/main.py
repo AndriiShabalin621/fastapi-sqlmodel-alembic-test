@@ -9,8 +9,11 @@ api_router = APIRouter()
 api_router.include_router(question.router)
 api_router.include_router(answer.router)
 
-app = FastAPI()
+app = FastAPI(
+    docs_url="/docs"
+)
 
 app.include_router(api_router)
 
 app.add_middleware(LoggingMiddleware)
+
