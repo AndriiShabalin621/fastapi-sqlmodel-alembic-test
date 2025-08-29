@@ -53,4 +53,5 @@ docker-compose up -d --build
 docker-compose exec web alembic upgrade head
 ```
 ### 🌐 Доступ к API
-API Documentation: http://localhost:8004
+http://localhost:8004
+
